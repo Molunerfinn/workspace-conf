@@ -1,0 +1,24 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Molunerfinn
+    email = marksz@teamsz.xyz
+[alias]
+    cl = clone
+    ci = commit -am
+    st = status
+    co = checkout
+    br = branch
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    rb = rebase
+    rf = reflog
+    pf = push --follow-tags
+[color]
+    ui = true
+[core]
+    editor = vim 
+[merge]
+    tool = vim-diff
+[credential]
+	helper = osxkeychain

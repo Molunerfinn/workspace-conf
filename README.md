@@ -25,3 +25,10 @@ Download the [one-dark.xcs](https://raw.githubusercontent.com/Molunerfinn/worksp
 ```bash
 curl https://raw.githubusercontent.com/Molunerfinn/workspace-conf/master/node-install.sh | sh
 ```
+
+## Git Config
+
+```
+wget https://raw.githubusercontent.com/Molunerfinn/workspace-conf/master/.gitconfig -P ~/
+```
+
