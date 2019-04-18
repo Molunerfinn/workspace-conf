@@ -9,7 +9,7 @@ Just a repo of my workspace conf.
 ### Install
 
 ```bash
-curl https://raw.githubusercontent.com/Molunerfinn/workspace-conf/master/viminstall.sh | sh
+curl https://raw.githubusercontent.com/Molunerfinn/workspace-conf/master/vim-install.sh | sh
 ```
 
 ## XShell One Dark Color Scheme
@@ -19,3 +19,9 @@ curl https://raw.githubusercontent.com/Molunerfinn/workspace-conf/master/viminst
 ### Install
 
 Download the [one-dark.xcs](https://raw.githubusercontent.com/Molunerfinn/workspace-conf/master/one-dark.xcs), then import into your XShell.
+
+## Install Node
+
+```bash
+curl https://raw.githubusercontent.com/Molunerfinn/workspace-conf/master/node-install.sh | sh
+```
